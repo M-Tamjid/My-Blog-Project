@@ -1,0 +1,253 @@
+/* XL Device :1200px. */
+/* @media (min-width: 1200px) and (max-width: 1500px) {
+} */
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+  h2.title {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 51px;
+    color: #fff;
+}
+}
+@media (max-width: 991px) {
+
+}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .logo-sm-md{
+    display: block;
+}
+a.icon-nav {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 1s ease-in-out;
+}
+a.icon-nav:hover{
+  transform: rotate(-360deg);
+}
+.logo-sm-md {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-top-md-sm {
+  display: flex;
+  gap: 2em;
+}
+
+.container {
+   padding: 0;
+}
+h2.title {
+  line-height: 45px;
+  font-size: 34px;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.ju {
+  gap: 0;
+}
+a.nav-link.icon-nav {
+  display: none;
+}
+button.btn.btn-outline-success {
+  display: none;
+}
+img.logo {
+  display: none;
+}
+button.btn-banner {
+  margin-bottom: 5px;
+}
+.row.row-benefit {
+  padding: 2em 0;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+.row.row-pricing {
+  padding: 2em 0;
+}
+.pricing-card {
+  padding: 10px;
+}
+img.app-img {
+  width: 100%;
+}
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+  .container {
+    padding: 0;
+}
+img.logo {
+  display: none;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.ju {
+  gap: 0;
+}
+a.nav-link.icon-nav {
+  display: none;
+}
+button.btn.btn-outline-success {
+  display: none;
+}
+  .logo-sm-md{
+    display: block;
+}
+a.icon-nav {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 1s ease-in-out;
+}
+a.icon-nav:hover{
+  transform: rotate(-360deg);
+}
+.logo-sm-md {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-top-md-sm {
+  display: flex;
+  gap: 2em;
+}
+.row.row-banner {
+  flex-direction: column-reverse;
+}
+
+.row.row-banner {
+  text-align: center;
+  margin: 0;
+  flex-direction: column-reverse;
+}
+.row.row-benefit {
+  padding: 2em 0;
+}
+h3.title {
+  font-size: 50px;
+}
+.row.info-row {
+  gap: 1em;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+.row.row-pricing {
+  padding: 2em 5em;
+  gap: 1em;
+}
+.pricing-card {
+  padding: 10px;
+}
+img.app-img {
+  width: 100%;
+}
+.row.row-footer {
+  text-align: center;
+}
+.gallery-section {
+  justify-content: center;
+}
+}
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+  .container {
+    padding: 0;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.ju {
+  gap: 0;
+}
+a.nav-link.icon-nav {
+  display: none;
+}
+button.btn.btn-outline-success {
+  display: none;
+}
+img.logo {
+  display: none;
+}
+.logo-sm-md{
+  display: block;
+}
+a.icon-nav {
+color: #fff;
+font-weight: 500;
+font-size: 18px;
+transition: all 1s ease-in-out;
+}
+a.icon-nav:hover{
+transform: rotate(-360deg);
+}
+.logo-sm-md {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.icon-top-md-sm {
+display: flex;
+gap: 2em;
+}
+
+img.logo-sm {
+  width: 100%;
+}
+.row.row-banner {
+  width: 100%;
+}
+.logo-sm-md {
+  padding: 0 7px;
+}
+h2.title {
+  line-height: 44px;
+  font-size: 33px;
+}
+.row.row-banner {
+  text-align: center;
+  margin: 0;
+  flex-direction: column-reverse;
+}
+button.btn-banner {
+  margin-bottom: 5px;
+}
+.row.row-benefit {
+  padding: 2em 0;
+}
+h3.title {
+  font-size: 42px;
+}
+.row.info-row {
+  gap: 1em;
+}
+.row {
+  width: 100%;
+  margin: 0;
+}
+h3.title-benefit.s-s {
+  font-size: 20px;
+}
+p.advantages-para.faq-q {
+  font-size: 13px;
+}
+.row.row-pricing {
+  padding: 2em 1em;
+  margin: 0;
+  gap: 1em;
+}
+img.app-img {
+  width: 100%;
+}
+.row.row-footer {
+  text-align: center;
+}
+.gallery-section {
+  justify-content: center;
+}
+}

@@ -1,0 +1,354 @@
+/* ===========
+common-css
+===============
+ */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto+Serif&display=swap');
+a{
+  text-decoration: none;
+}
+h3{
+  color: #1A1B1B;
+  font-size: 52px;
+  font-weight: 700;
+}
+h4{
+  font-size: 16px;
+  font-weight: 600;
+  color: #FF7542;
+}
+/* nav-bar-start */
+img.logo {
+  width: 75%;
+}
+ul.navbar-nav.me-auto.mb-2.mb-lg-0.ju {
+  width: 100%;
+  justify-content: flex-end;
+  gap: 1em;
+}
+section.nab-bar {
+  background-image: linear-gradient(70deg, #B06AB3 0%, #3E2784 100%);
+}
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  transition: all 0.5s ease-in-out;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #fff;
+  font-size: 19px;
+}
+button.btn.btn-outline-success {
+  color: #fff;
+  background: #ff7542;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-weight: 600;
+  font-size: 17px;
+}
+a.nav-link.icon-nav:hover{
+  transform: rotate(-360deg);
+  transition: all 1s ease-in-out;
+}
+.container {
+  padding: 0 5em;
+}
+/* md-sm */
+.logo-sm-md {
+  display: none;
+}
+
+/* nav-bar-end */
+
+/* banner-section-start */
+section.banner {
+  background-image: linear-gradient(70deg, #B06AB3 0%, #3E2784 100%);
+}
+.row.row-banner {
+  padding: 3em 0;
+  align-items: center;
+  gap: 1em;
+}
+h2.title {
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 64px;
+  color: #fff;
+}
+p.para-banner {
+  font-size: 17px;
+  font-weight: 400;
+  color: #fff;
+}
+.col-lg-5.col-banner {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+button.btn-banner {
+  border-radius: 21px 21px 21px 21px;
+  letter-spacing: 1.4px;
+  font-size: 16px;
+  font-weight: 500;
+  background: none;
+  padding: 5px 20px;
+  border: solid 3px #fff;
+}
+a.btn-link {
+  color: #fff;
+  text-decoration: none;
+}
+button.banner-btn-2nd {
+  border-radius: 28px 28px 28px 28px;
+  background: #f2f2f2;
+  padding: 6px 25px;
+  border: none;
+  font-size: 17px;
+  font-weight: 500;
+}
+a.link-btn-2nd {
+  color: #000;
+}
+img.img-banner {
+  width: 100%;
+}
+a.btn-link:hover{
+  color: #ffff;
+}
+/* banner-section-end */
+/* benefit-section-start */
+.col-lg-4.benefit-col {
+  text-align: center;
+}
+h3.title-benefit {
+  font-size: 23px;
+  font-weight: 600;
+  margin-bottom: 7px;
+  color: #000;
+}
+img.code{
+  width: 110px;
+  transition: all 0.5s ease-in-out;
+}
+img.code:hover {
+  width: 115px;
+}
+p.benefit {
+  color: #7A7A7A;
+  font-weight: 400;
+  font-size: 17px;
+}
+.container.container-benefit {
+  text-align: center;
+  padding: 2em;
+}
+.row.row-benefit {
+  padding: 2em 8em;
+}
+/* benefit-section-end */
+/* creater-section-start */
+section.creater {
+  background: #3E2784;
+}
+/* creater-section-end */
+/* advantages-start */
+i.fas.fa-check-circle {
+  color: #6EE48C;
+}
+button.banner-btn-2nd.advantages-button {
+  background: #6564c4;
+}
+a.link-btn-2nd.advantages-btn {
+  color: #fff;
+  font-weight: 600;
+}
+h2.title.title-advantages {
+  color: #000;
+}
+.col-lg-5.col-md-5.col-sm-12.col-12.col-banner.col-advantages {
+  gap: 0;
+}
+span.list-style {
+  font-weight: 500;
+  font-size: 18px;
+}
+.row.row-banner.advantages-row {
+  flex-direction: row-reverse;
+}
+/* advantages-end */
+/* info-section-start */
+span.counter {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 1;
+  color: #ffff;
+}
+span.name-cou {
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #fff;
+}
+section.info {
+  background-image: url(http://rinku.evmetaio.co/wp-content/uploads/2022/03/banner2.png);
+  background-position: center center;
+  background-repeat: repeat;
+}
+.info-div {
+  background-color: rgb(62, 39, 132,0.9);
+}
+.row.info-row {
+  text-align: center;
+  padding: 5em 0;
+}
+/* info-section-end */
+/* faq-section-start */
+section.faq {
+  background: #3E2784;
+}
+p.advantages-para.faq-q {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #fff;
+  margin-bottom: 20px;
+}
+h2.title.title-advantages.faq-title {
+  color: #fff;
+}
+/* faq-section-end */
+/* pricing-section-start */
+h2.title-pricing {
+  color: #1A1B1B;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+}
+h3.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #4c4c4c;
+  margin-bottom: 14px;
+}
+hr.card-dash {
+  width: 140px;
+  height: 1px;
+  margin: 8px auto;
+}
+span.price {
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 0px;
+  color: #999;
+}
+span.time-price {
+  color: #999;
+}
+ul.u-list {
+  list-style: none;
+}
+.container.container-pricing {
+  padding: 2em 0;
+}
+.card-price-div {
+  margin: 20px 0;
+}
+li.list-item {
+  height: auto;
+  padding: 10px 0px;
+  font-size: 14px;
+  color: #6d6d6d;
+  border-bottom: 1px solid rgba(9,9,9,.04);
+}
+button.choose-btn {
+  padding: 12px 20px;
+  background: #03b048;
+  border: none;
+}
+a.link-button-cho {
+  color: #f9f9f9;
+  font-weight: bolder;
+}
+.pricing-card {
+  border-radius: 4px;
+  border: 1px solid rgba(9,9,9,.1);
+  padding: 30px;
+}
+.pricing-card {
+  border-radius: 4px;
+  border: 1px solid rgba(9,9,9,.1);
+  padding: 30px;
+  text-align: center;
+  transition: all 0.6s ease-in-out;
+}
+.row.row-pricing {
+  padding: 2em 5em;
+}
+.pricing-card:hover{
+  box-shadow: 2px 1px 20px grey;
+}
+h4.tag-pricing {
+  text-align: center;
+}
+/* pricing-section-end */
+/* app-section-start */
+.app-store {
+  display: flex;
+  flex-direction: row;
+}
+/* app-section-end */
+/* footer-sction-start */
+section.footer {
+  background-image: url("http://rinku.evmetaio.co/wp-content/uploads/2022/03/bg-footer.png");
+  background-size: cover;
+}
+.footer-nav {
+  background-color: rgb(35, 33, 33,0.9);
+}
+.row.row-footer {
+  padding: 2em 0;
+}
+.nav-img-footer {
+  margin-bottom: 20px;
+}
+p.para-footer-nav {
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+}
+ul.nav-ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+}
+h6.title-info {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.gallery-section {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  padding: 5px 0;
+}
+img.gallery-img {
+  width: 69px;
+}
+p.last-text {
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  padding: 1em 0;
+  border-top: 1px solid gray;
+}
+/* footer-sction-end */
